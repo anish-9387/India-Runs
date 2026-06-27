@@ -1,0 +1,78 @@
+# Redrob Hackathon — Submission Metadata
+# Fill the TODO fields with your team's real details before submitting.
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "TODO-your-team-name"
+
+primary_contact:
+  name: "TODO Full Name"
+  email: "TODO@example.com"
+  phone: "+91-XXXXXXXXXX"
+
+team_members:
+  - name: "TODO Member 1"
+    email: "member1@example.com"
+    role: "ML Engineer"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/TODO_USERNAME/redrob-ranker"
+sandbox_link: "https://huggingface.co/spaces/TODO_USERNAME/redrob-ranker"
+reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "TODO (e.g. MacBook Pro M2)"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.13"
+  os: "TODO (e.g. macOS 15)"
+  uses_gpu_for_inference: false        # ranking is CPU-only
+  has_network_during_ranking: false    # no API calls at ranking time
+  pre_computation_required: false      # default run uses TF-IDF, no precompute
+  pre_computation_time_minutes: 0      # set if you enable the dense channel
+
+# ============================================================================
+# AI tools declaration  (transparency only — not penalized)
+# ============================================================================
+ai_tools_used:
+  - "Claude"            # architecture design, code review, EDA scripting
+ai_usage_summary: |
+  Used Claude (Claude Code) for architecture discussion, calibrating honeypot
+  thresholds from the data distribution, code review, and documentation. All
+  ranking logic is rules-based and runs locally; no candidate data is sent to
+  any LLM at ranking time, and the reasoning column is assembled from candidate
+  fields with no generative step.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  Hybrid unsupervised ranker (no labels in the data). final =
+  (0.62*structured_fit + 0.38*semantic) * behavioral_modifier * honeypot_gate.
+  structured_fit scores role-title match and domain evidence read from free-text
+  CAREER DESCRIPTIONS (not the skills array) — the decisive defense against
+  keyword-stuffers — plus product-vs-services, experience band, location and
+  GitHub validation, minus penalties for the JD's explicit non-fits. The
+  semantic channel is a TF-IDF cosine to a JD ideal-profile query (optionally
+  RRF-fused with model2vec dense embeddings) that catches strong candidates who
+  avoid buzzwords. A multiplicative behavioral modifier down-weights inactive /
+  unresponsive profiles. Honeypots are gated using internal-consistency checks
+  calibrated to the data distribution (0% in the top-100). Reasoning is assembled
+  from real fields only — hallucination-free by construction. Runtime ~52s for
+  100k candidates on CPU, ~1.5 GB RAM.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

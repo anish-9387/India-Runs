@@ -1,0 +1,4 @@
+# Sandbox (HuggingFace Spaces / Streamlit Cloud) dependencies.
+streamlit>=1.30
+numpy>=1.24
+scikit-learn>=1.3

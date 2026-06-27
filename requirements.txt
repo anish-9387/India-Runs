@@ -1,0 +1,9 @@
+# Core ranking dependencies (CPU-only, no network at ranking time).
+# Tested with Python 3.13, numpy 2.4.6, scikit-learn 1.8.0.
+numpy>=1.24
+scikit-learn>=1.3
+
+# --- Optional: dense-embedding channel (scripts/precompute_embeddings.py) ---
+# Uncomment to enable the optional model2vec static-embedding channel.
+# The default ranker runs fully offline on TF-IDF without these.
+# model2vec>=0.3

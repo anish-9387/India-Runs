@@ -1,0 +1,17 @@
+# Data (the candidate pool is provided by the organizers; do not commit it)
+*.jsonl
+*.jsonl.gz
+data/
+candidates.jsonl
+
+# Build artifacts / outputs
+submission.csv
+artifacts/*.npz
+*.egg-info/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Keep the artifacts dir present
+!artifacts/.gitkeep
