@@ -4,27 +4,27 @@ OUT ?= submission.csv
 .PHONY: install rank validate test eda sandbox embeddings clean
 
 install:
-	pip install -r requirements.txt
+	poetry install --no-root
 
 rank:
-	python rank.py --candidates $(CANDIDATES) --out $(OUT)
+	poetry run python rank.py --candidates $(CANDIDATES) --out $(OUT)
 
 validate:
-	python validate_submission.py $(OUT)
+	poetry run python validate_submission.py $(OUT)
 
 test:
-	python -m pytest tests/ -q
+	poetry run python -m pytest tests/ -q
 
 eda:
-	python scripts/eda.py --candidates $(CANDIDATES)
+	poetry run python scripts/eda.py --candidates $(CANDIDATES)
 
 embeddings:
-	python scripts/precompute_embeddings.py --candidates $(CANDIDATES) \
+	poetry run python scripts/precompute_embeddings.py --candidates $(CANDIDATES) \
 		--out artifacts/dense_embeddings.npz
 
 sandbox:
-	streamlit run sandbox/app.py
+	poetry run streamlit run sandbox/app.py
 
 clean:
+	poetry run python -c "import pathlib, shutil; [shutil.rmtree(p) for p in pathlib.Path('.').rglob('__pycache__')]"
 	rm -f $(OUT)
-	find . -name __pycache__ -type d -prune -exec rm -rf {} +

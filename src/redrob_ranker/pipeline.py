@@ -62,9 +62,10 @@ def rank(candidates_path: str, out_path: str, dense_path: str | None = None,
     rows = []
     prev_score = float("inf")
     for pos, i in enumerate(top, start=1):
-        # tone follows the ABSOLUTE fit, not the rank position, so reasoning
-        # stays honest when the top-100 contains only weak matches.
-        s_i = float(final[i])
+        # tone follows the ABSOLUTE fit (pre-normalization `pre`), not the
+        # pool-relatively rescaled `final`, so reasoning stays honest when the
+        # top-100 contains only weak matches or the pool is very small.
+        s_i = float(pre[i])
         band = "top" if s_i >= 0.55 else ("mid" if s_i >= 0.35 else "low")
         reasoning = build_reasoning(feats[i], band)
         score = round(float(final[i]), 6)
