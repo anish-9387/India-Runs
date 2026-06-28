@@ -1,71 +1,112 @@
 # Redrob Hackathon — Submission Metadata
-# Fill the TODO fields with your team's real details before submitting.
 
 # ============================================================================
 # Team identity
 # ============================================================================
-team_name: "TODO-your-team-name"
+team_name: "Revolution"
 
 primary_contact:
-  name: "TODO Full Name"
-  email: "TODO@example.com"
-  phone: "+91-XXXXXXXXXX"
+  name: "Anish Mall"
+  email: "anishmall3879@gmail.com"
+  phone: "+91-9510779387"
 
 team_members:
-  - name: "TODO Member 1"
-    email: "member1@example.com"
-    role: "ML Engineer"
+  - name: "Ayush Kesarwani"
+    email: "ayushkesharwani64@gmail.com"
+    role: "AI/ML Engineer"
+
+  - name: "Aashi Soni"
+    email: "aashi2701soni@gmail.com"
+    role: "Research Engineer"
+
+  - name: "Sourav Kumar"
+    email: "souravkumar5768@gmail.com"
+    role: "Frontend, UX Engineer"
+  
+  - name: "Anish Mall"
+    email: "anishmall3879@gmail.com"
+    role: "Backend, AI Engineer"
 
 # ============================================================================
 # Code and reproducibility
 # ============================================================================
-github_repo: "https://github.com/TODO_USERNAME/redrob-ranker"
-sandbox_link: "https://huggingface.co/spaces/TODO_USERNAME/redrob-ranker"
+github_repo: "https://github.com/anish-9387/India-Runs"
+# sandbox_link: "https://huggingface.co/spaces/TODO_USERNAME/redrob-ranker"
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
 
 # ============================================================================
 # Compute environment
 # ============================================================================
 compute:
-  platform: "TODO (e.g. MacBook Pro M2)"
-  cpu_cores: 8
-  ram_gb: 16
-  python_version: "3.13"
-  os: "TODO (e.g. macOS 15)"
-  uses_gpu_for_inference: false        # ranking is CPU-only
-  has_network_during_ranking: false    # no API calls at ranking time
-  pre_computation_required: false      # default run uses TF-IDF, no precompute
-  pre_computation_time_minutes: 0      # set if you enable the dense channel
+  platform: "MacBook Air M3 / Dell Inspiron 15"
+  cpu_cores: 8 / 4
+  ram_gb: 16 / 8
+  python_version: "3.14"
+  os: "macOS 25 / Windows 11"
+  uses_gpu_for_inference: false        # ranking is CPU-only; no GPU touched at any stage
+  has_network_during_ranking: false    # iter_candidates() reads local .jsonl/.jsonl.gz only; TF-IDF channel is offline
+  pre_computation_required: false      # default run (TF-IDF only) needs zero precompute
+  pre_computation_time_minutes: 0      # set >0 only if scripts/precompute_embeddings.py was run to enable the optional model2vec dense channel
 
 # ============================================================================
 # AI tools declaration  (transparency only — not penalized)
 # ============================================================================
 ai_tools_used:
   - "Claude"            # architecture design, code review, EDA scripting
+  - "ChatGPT"           # planning, documentation
 ai_usage_summary: |
-  Used Claude (Claude Code) for architecture discussion, calibrating honeypot
-  thresholds from the data distribution, code review, and documentation. All
-  ranking logic is rules-based and runs locally; no candidate data is sent to
-  any LLM at ranking time, and the reasoning column is assembled from candidate
-  fields with no generative step.
+  Claude (via Claude Code) was used for architecture design and review across
+  src/redrob_ranker/: structuring the structured_fit / semantic / behavioral /
+  honeypot channel split in features.py and text_channel.py, calibrating the
+  honeypot detection thresholds in detect_honeypot() against the actual 100k
+  distribution (scripts/eda.py), reviewing the role-taxonomy and domain-term
+  vocabularies in config.py, and drafting documentation (README.md) and the
+  smoke-test suite (tests/test_smoke.py). ChatGPT was used for early planning
+  and documentation drafts. All ranking logic that ships in the submission is
+  deterministic, rules-based Python (no LLM call at ranking time): rank.py
+  reads candidates.jsonl, scores them with config.py's fixed weights and
+  vocabularies, and writes submission.csv with no network access and no
+  candidate data ever sent to any LLM. The reasoning column in reasoning.py is
+  template-assembled from the candidate's own fields — there is no generative
+  step, so it is hallucination-free by construction rather than by prompting.
 
 # ============================================================================
 # Approach summary
 # ============================================================================
 methodology_summary: |
-  Hybrid unsupervised ranker (no labels in the data). final =
-  (0.62*structured_fit + 0.38*semantic) * behavioral_modifier * honeypot_gate.
-  structured_fit scores role-title match and domain evidence read from free-text
-  CAREER DESCRIPTIONS (not the skills array) — the decisive defense against
-  keyword-stuffers — plus product-vs-services, experience band, location and
-  GitHub validation, minus penalties for the JD's explicit non-fits. The
-  semantic channel is a TF-IDF cosine to a JD ideal-profile query (optionally
-  RRF-fused with model2vec dense embeddings) that catches strong candidates who
-  avoid buzzwords. A multiplicative behavioral modifier down-weights inactive /
-  unresponsive profiles. Honeypots are gated using internal-consistency checks
-  calibrated to the data distribution (0% in the top-100). Reasoning is assembled
-  from real fields only — hallucination-free by construction. Runtime ~52s for
-  100k candidates on CPU, ~1.5 GB RAM.
+  Hybrid, unsupervised ranker (the dataset has no relevance labels, so this is
+  a transparent scoring function rather than a trained model):
+
+    final = (0.62 * structured_fit + 0.38 * semantic) * behavioral_modifier * honeypot_gate
+
+  structured_fit (features.py) combines six weighted components — role (0.32),
+  domain (0.30), product (0.12), experience (0.10), location (0.10), external/
+  GitHub (0.06) — minus penalties for the JD's explicit non-fits (CV/speech/
+  robotics-only, entire career at IT-services firms, an off-role title paired
+  with a stuffed skill list). Critically, role reads the candidate's TITLE and
+  domain reads free-text CAREER DESCRIPTIONS, not the skills array — this is
+  the decisive defense against the dataset's keyword-stuffing trap (e.g. a
+  "Marketing Manager" listing RAG/Pinecone/Embeddings as skills scores ~0).
+  semantic (text_channel.py) is a TF-IDF cosine similarity between each
+  candidate's text and a hand-written JD "ideal profile" query, optionally RRF-
+  fused with precomputed model2vec dense embeddings if that optional offline
+  artifact is present — this catches genuine candidates who describe relevant
+  work without using the JD's buzzwords. behavioral_modifier is a multiplicative
+  factor in [0.55, 1.12] built from the 23 redrob_signals (recency, recruiter
+  response rate, open-to-work flag, notice period, engagement) that down-weights
+  inactive/unresponsive candidates without zeroing them out. honeypot_gate
+  (detect_honeypot()) flags internally-impossible profiles — experience that
+  exceeds the career timeline or the sum of role durations, or multiple
+  zero-duration "expert" skills — using thresholds calibrated against the
+  actual 100k distribution (scripts/eda.py), and multiplies their score by
+  0.02 so they sink without needing a hard cutoff. Every reasoning string
+  (reasoning.py) is assembled from the candidate's real fields with no
+  generative LLM step, so it is hallucination-free by construction. The full
+  pipeline (rank.py) is CPU-only, fully offline by default (TF-IDF channel),
+  and runs the full 100k-candidate pool in ~52s wall-clock at ~1.5 GB RAM —
+  well inside the challenge's 5-minute, 16 GB, CPU-only, no-network budget —
+  producing a top-100 that is 100% genuine AI/ML/retrieval roles with 0
+  honeypots, validated by validate_submission.py.
 
 # ============================================================================
 # Declarations
