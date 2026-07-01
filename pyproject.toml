@@ -3,13 +3,13 @@ requires = ["poetry-core>=2.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "redrob-ranker"
+name = "candidate-ranker"
 version = "0.1.0"
-description = "CPU-only, fully-offline candidate ranker for the Redrob AI hackathon (India Runs Data & AI Challenge)."
+description = "CPU-only, fully-offline candidate ranker (India Runs Data & AI Challenge)."
 authors = []
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "redrob_ranker", from = "src" }]
+packages = [{ include = "src" }]
 
 [tool.poetry.dependencies]
 python = ">=3.12"
@@ -20,4 +20,4 @@ scikit-learn = ">=1.3"
 pytest = ">=7"
 
 [tool.poetry.scripts]
-redrob-ranker = "rank:main"
+candidate-ranker = "rank:main"

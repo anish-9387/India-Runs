@@ -1,4 +1,4 @@
-# Redrob Hackathon — Submission Metadata
+# India Runs Challenge — Submission Metadata
 
 # ============================================================================
 # Team identity
@@ -31,7 +31,7 @@ team_members:
 # Code and reproducibility
 # ============================================================================
 github_repo: "https://github.com/anish-9387/India-Runs"
-# sandbox_link: "https://huggingface.co/spaces/TODO_USERNAME/redrob-ranker"
+# sandbox_link: "https://huggingface.co/spaces/TODO_USERNAME/candidate-ranker"
 reproduce_command: "python rank.py --candidates ./candidates.jsonl --out ./submission.csv"
 
 # ============================================================================
@@ -56,7 +56,7 @@ ai_tools_used:
   - "ChatGPT"           # planning, documentation
 ai_usage_summary: |
   Claude (via Claude Code) was used for architecture design and review across
-  src/redrob_ranker/: structuring the structured_fit / semantic / behavioral /
+  src/: structuring the structured_fit / semantic / behavioral /
   honeypot channel split in features.py and text_channel.py, calibrating the
   honeypot detection thresholds in detect_honeypot() against the actual 100k
   distribution (scripts/eda.py), reviewing the role-taxonomy and domain-term

@@ -26,8 +26,8 @@ import numpy as np
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 
-from redrob_ranker.dates import months_between, parse_date  # noqa: E402
-from redrob_ranker.loading import (dataset_reference_date,  # noqa: E402
+from dates import months_between, parse_date  # noqa: E402
+from loading import (dataset_reference_date,  # noqa: E402
                                    iter_candidates)
 
 

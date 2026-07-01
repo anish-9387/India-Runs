@@ -28,11 +28,11 @@ import numpy as np
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 
-from redrob_ranker import config as C  # noqa: E402
-from redrob_ranker.dates import parse_date  # noqa: E402
-from redrob_ranker.loading import (dataset_reference_date,  # noqa: E402
+import config as C  # noqa: E402
+from dates import parse_date  # noqa: E402
+from loading import (dataset_reference_date,  # noqa: E402
                                    iter_candidates)
-from redrob_ranker.features import extract  # noqa: E402
+from features import extract  # noqa: E402
 
 DEFAULT_MODEL = "minishlab/potion-base-8M"  # static, CPU-friendly, ~30 MB
 

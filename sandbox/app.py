@@ -1,5 +1,5 @@
 """
-Sandbox demo (Streamlit) for the Redrob candidate ranker.
+Sandbox demo (Streamlit) for the candidate ranker.
 
 Satisfies the hackathon's mandatory sandbox requirement: accepts a small
 candidate sample (<=100 records, .jsonl or a .json array), runs the SAME ranking
@@ -20,10 +20,10 @@ import tempfile
 import streamlit as st
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
-from redrob_ranker.pipeline import rank  # noqa: E402
+from pipeline import rank  # noqa: E402
 
-st.set_page_config(page_title="Redrob Candidate Ranker", layout="wide")
-st.title("Redrob — Intelligent Candidate Ranker")
+st.set_page_config(page_title="Candidate Ranker", layout="wide")
+st.title("Candidate Ranker")
 st.caption("Hybrid structured + semantic ranking with grounded, "
            "hallucination-free reasoning. CPU-only, no network.")
 

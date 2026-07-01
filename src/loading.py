@@ -8,7 +8,7 @@ import re
 from datetime import date
 from typing import Iterator
 
-from .dates import parse_date
+from dates import parse_date
 
 _LAST_ACTIVE_RE = re.compile(r'"last_active_date"\s*:\s*"(\d{4}-\d{2}-\d{2})"')
 
