@@ -1,0 +1,3224 @@
+{
+  "metadata": {
+    "total_candidates": 100000,
+    "top_n": 100,
+    "semantic_channel": "bm25+tfidf",
+    "weights": {
+      "structured_blend": 0.58,
+      "semantic_blend": 0.42,
+      "structured_weights": {
+        "role": 0.25,
+        "domain": 0.22,
+        "product": 0.1,
+        "experience": 0.08,
+        "external": 0.05,
+        "location": 0.08,
+        "promotion": 0.08,
+        "diversity": 0.07,
+        "company_quality": 0.07
+      }
+    }
+  },
+  "top_candidates": [
+    {
+      "candidate_id": "CAND_0018499",
+      "rank": 1,
+      "confidence": 0.9912,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9978,
+        "external": 1.0,
+        "location": 1.0,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 18,
+        "nlp_llm": 7,
+        "production_scale": 9,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0459,
+        "availability": 0.87
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0081846",
+      "rank": 2,
+      "confidence": 0.9872,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.995,
+        "external": 0.674,
+        "location": 0.75,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 22,
+        "nlp_llm": 8,
+        "production_scale": 8,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0496,
+        "availability": 0.876
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0046525",
+      "rank": 3,
+      "confidence": 0.9988,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.956,
+        "external": 0.734,
+        "location": 1.0,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 20,
+        "nlp_llm": 4,
+        "production_scale": 4,
+        "eval": 4,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0583,
+        "availability": 0.892
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0077337",
+      "rank": 4,
+      "confidence": 0.9738,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 1.0,
+        "external": 1.0,
+        "location": 0.75,
+        "promotion": 0.7857,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 20,
+        "nlp_llm": 5,
+        "production_scale": 5,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0719,
+        "availability": 0.916
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0046064",
+      "rank": 5,
+      "confidence": 0.9896,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8183,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 26,
+        "nlp_llm": 11,
+        "production_scale": 11,
+        "eval": 6,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0478,
+        "availability": 0.873
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0055905",
+      "rank": 6,
+      "confidence": 0.9209,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.935,
+        "external": 0.0,
+        "location": 0.15,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 24,
+        "nlp_llm": 11,
+        "production_scale": 11,
+        "eval": 4,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0807,
+        "availability": 0.931
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0088025",
+      "rank": 7,
+      "confidence": 0.9682,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8674,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 20,
+        "nlp_llm": 3,
+        "production_scale": 3,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0498,
+        "availability": 0.877
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0002025",
+      "rank": 8,
+      "confidence": 0.9692,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.935,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 12,
+        "nlp_llm": 5,
+        "production_scale": 6,
+        "eval": 1,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0653,
+        "availability": 0.904
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0011687",
+      "rank": 9,
+      "confidence": 0.9557,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9651,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 16,
+        "nlp_llm": 7,
+        "production_scale": 8,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0798,
+        "availability": 0.93
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0086022",
+      "rank": 10,
+      "confidence": 0.9689,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8517,
+        "external": 1.0,
+        "location": 0.95,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 21,
+        "nlp_llm": 6,
+        "production_scale": 4,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0128,
+        "availability": 0.812
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0008425",
+      "rank": 11,
+      "confidence": 0.9669,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9651,
+        "external": 1.0,
+        "location": 0.8,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 22,
+        "nlp_llm": 11,
+        "production_scale": 12,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0017,
+        "availability": 0.793
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0075249",
+      "rank": 12,
+      "confidence": 0.9358,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9651,
+        "external": 0.736,
+        "location": 0.8,
+        "promotion": 1.0,
+        "diversity": 0.8,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 16,
+        "nlp_llm": 4,
+        "production_scale": 5,
+        "eval": 1,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 3,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0304,
+        "availability": 0.843
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0005260",
+      "rank": 13,
+      "confidence": 0.9663,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8353,
+        "external": 0.0,
+        "location": 0.95,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 18,
+        "nlp_llm": 10,
+        "production_scale": 10,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9782,
+        "availability": 0.751
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0062247",
+      "rank": 14,
+      "confidence": 0.8903,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.995,
+        "external": 1.0,
+        "location": 0.75,
+        "promotion": 1.0,
+        "diversity": 0.8,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 14,
+        "nlp_llm": 4,
+        "production_scale": 5,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 3,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0635,
+        "availability": 0.901
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0071974",
+      "rank": 15,
+      "confidence": 0.9328,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9651,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 19,
+        "nlp_llm": 7,
+        "production_scale": 9,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0288,
+        "availability": 0.84
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0000031",
+      "rank": 16,
+      "confidence": 0.915,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.946,
+        "external": 0.652,
+        "location": 0.95,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 10,
+        "nlp_llm": 1,
+        "production_scale": 4,
+        "eval": 6,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0477,
+        "availability": 0.873
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0030348",
+      "rank": 17,
+      "confidence": 0.9215,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.7066,
+        "external": 0.0,
+        "location": 1.0,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 14,
+        "nlp_llm": 5,
+        "production_scale": 4,
+        "eval": 1,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9859,
+        "availability": 0.765
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0070398",
+      "rank": 18,
+      "confidence": 0.9289,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9978,
+        "external": 1.0,
+        "location": 0.75,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 12,
+        "nlp_llm": 4,
+        "production_scale": 2,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9626,
+        "availability": 0.724
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0061257",
+      "rank": 19,
+      "confidence": 0.8655,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.946,
+        "external": 0.906,
+        "location": 1.0,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 5,
+        "nlp_llm": 0,
+        "production_scale": 6,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0511,
+        "availability": 0.879
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0066376",
+      "rank": 20,
+      "confidence": 0.9233,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9104,
+        "external": 0.0,
+        "location": 0.8,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 14,
+        "nlp_llm": 4,
+        "production_scale": 4,
+        "eval": 1,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9706,
+        "availability": 0.738
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0080766",
+      "rank": 21,
+      "confidence": 0.9522,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8353,
+        "external": 0.658,
+        "location": 0.75,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 13,
+        "nlp_llm": 3,
+        "production_scale": 8,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "strong_upward",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9516,
+        "availability": 0.705
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0093912",
+      "rank": 22,
+      "confidence": 0.9073,
+      "weight_breakdown": {
+        "role": 0.9,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8517,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 12,
+        "nlp_llm": 4,
+        "production_scale": 4,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0408,
+        "availability": 0.861
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0018549",
+      "rank": 23,
+      "confidence": 0.8961,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9978,
+        "external": 1.0,
+        "location": 0.75,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 11,
+        "nlp_llm": 3,
+        "production_scale": 6,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0406,
+        "availability": 0.861
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0001610",
+      "rank": 24,
+      "confidence": 0.9361,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.4111,
+        "external": 0.8,
+        "location": 0.75,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 15,
+        "nlp_llm": 5,
+        "production_scale": 5,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9831,
+        "availability": 0.76
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0026532",
+      "rank": 25,
+      "confidence": 0.9171,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.7642,
+        "external": 0.65,
+        "location": 0.95,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 15,
+        "nlp_llm": 5,
+        "production_scale": 4,
+        "eval": 1,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9589,
+        "availability": 0.717
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0006557",
+      "rank": 26,
+      "confidence": 0.9319,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.956,
+        "external": 0.0,
+        "location": 0.75,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 8,
+        "nlp_llm": 4,
+        "production_scale": 6,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9651,
+        "availability": 0.728
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0006567",
+      "rank": 27,
+      "confidence": 0.8695,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.956,
+        "external": 0.704,
+        "location": 1.0,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 7,
+        "nlp_llm": 0,
+        "production_scale": 3,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0611,
+        "availability": 0.897
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0041669",
+      "rank": 28,
+      "confidence": 0.8695,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.946,
+        "external": 1.0,
+        "location": 1.0,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 13,
+        "nlp_llm": 5,
+        "production_scale": 8,
+        "eval": 4,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0392,
+        "availability": 0.858
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0093547",
+      "rank": 29,
+      "confidence": 0.9798,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.393,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 16,
+        "nlp_llm": 6,
+        "production_scale": 7,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9335,
+        "availability": 0.673
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0054394",
+      "rank": 30,
+      "confidence": 0.8646,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.6267,
+        "external": 0.63,
+        "location": 1.0,
+        "promotion": 1.0,
+        "diversity": 0.8,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 14,
+        "nlp_llm": 3,
+        "production_scale": 4,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 3,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0627,
+        "availability": 0.899
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0030468",
+      "rank": 31,
+      "confidence": 0.8762,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8674,
+        "external": 0.9,
+        "location": 0.75,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 5,
+        "nlp_llm": 0,
+        "production_scale": 5,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0564,
+        "availability": 0.888
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0013613",
+      "rank": 32,
+      "confidence": 0.9159,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.7454,
+        "external": 1.0,
+        "location": 0.15,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 14,
+        "nlp_llm": 6,
+        "production_scale": 4,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9917,
+        "availability": 0.775
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0054123",
+      "rank": 33,
+      "confidence": 0.8967,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.7454,
+        "external": 1.0,
+        "location": 0.8,
+        "promotion": 1.0,
+        "diversity": 0.8,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 14,
+        "nlp_llm": 5,
+        "production_scale": 4,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 3,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9756,
+        "availability": 0.747
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0040887",
+      "rank": 34,
+      "confidence": 0.8792,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.7454,
+        "external": 0.684,
+        "location": 0.15,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 15,
+        "nlp_llm": 6,
+        "production_scale": 4,
+        "eval": 1,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0824,
+        "availability": 0.934
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0061339",
+      "rank": 35,
+      "confidence": 0.8786,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.6469,
+        "external": 1.0,
+        "location": 0.75,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 8,
+        "nlp_llm": 2,
+        "production_scale": 4,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0102,
+        "availability": 0.807
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0079387",
+      "rank": 36,
+      "confidence": 0.8386,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9994,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.7857,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 16,
+        "nlp_llm": 7,
+        "production_scale": 7,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0711,
+        "availability": 0.914
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0057563",
+      "rank": 37,
+      "confidence": 0.8995,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9978,
+        "external": 0.456,
+        "location": 0.75,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 16,
+        "nlp_llm": 6,
+        "production_scale": 6,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9596,
+        "availability": 0.719
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0091909",
+      "rank": 38,
+      "confidence": 0.877,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9994,
+        "external": 0.994,
+        "location": 0.95,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 8,
+        "nlp_llm": 4,
+        "production_scale": 4,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9844,
+        "availability": 0.762
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0042506",
+      "rank": 39,
+      "confidence": 0.8811,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.6469,
+        "external": 1.0,
+        "location": 0.8,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 12,
+        "nlp_llm": 5,
+        "production_scale": 6,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0291,
+        "availability": 0.84
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0069905",
+      "rank": 40,
+      "confidence": 0.8393,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9912,
+        "external": 0.896,
+        "location": 0.75,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 15,
+        "nlp_llm": 5,
+        "production_scale": 3,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0276,
+        "availability": 0.838
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0050454",
+      "rank": 41,
+      "confidence": 0.8152,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9978,
+        "external": 0.0,
+        "location": 0.95,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 12,
+        "nlp_llm": 3,
+        "production_scale": 4,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0428,
+        "availability": 0.864
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0079284",
+      "rank": 42,
+      "confidence": 0.9023,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.7827,
+        "external": 0.0,
+        "location": 0.8,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 8,
+        "nlp_llm": 2,
+        "production_scale": 4,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9671,
+        "availability": 0.732
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0018722",
+      "rank": 43,
+      "confidence": 0.8537,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9912,
+        "external": 1.0,
+        "location": 0.55,
+        "promotion": 0.9,
+        "diversity": 0.8,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 15,
+        "nlp_llm": 3,
+        "production_scale": 4,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 3,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0324,
+        "availability": 0.846
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0078002",
+      "rank": 44,
+      "confidence": 0.8548,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9731,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 7,
+        "nlp_llm": 3,
+        "production_scale": 4,
+        "eval": 6,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0506,
+        "availability": 0.878
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0061655",
+      "rank": 45,
+      "confidence": 0.9064,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.7261,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.5,
+        "diversity": 0.8,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 8,
+        "nlp_llm": 3,
+        "production_scale": 6,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 3,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9949,
+        "availability": 0.78
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0099806",
+      "rank": 46,
+      "confidence": 0.855,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.7261,
+        "external": 1.0,
+        "location": 0.75,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 7,
+        "nlp_llm": 1,
+        "production_scale": 3,
+        "eval": 4,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0596,
+        "availability": 0.894
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0044855",
+      "rank": 47,
+      "confidence": 0.9079,
+      "weight_breakdown": {
+        "role": 0.9,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9912,
+        "external": 0.934,
+        "location": 0.75,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 16,
+        "nlp_llm": 7,
+        "production_scale": 5,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9172,
+        "availability": 0.644
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0044222",
+      "rank": 48,
+      "confidence": 0.8553,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9731,
+        "external": 0.578,
+        "location": 0.6,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 12,
+        "nlp_llm": 4,
+        "production_scale": 2,
+        "eval": 4,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0178,
+        "availability": 0.821
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0075439",
+      "rank": 49,
+      "confidence": 0.9178,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.667,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 8,
+        "nlp_llm": 5,
+        "production_scale": 5,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9536,
+        "availability": 0.708
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0012957",
+      "rank": 50,
+      "confidence": 0.914,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.7827,
+        "external": 1.0,
+        "location": 0.95,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 10,
+        "nlp_llm": 3,
+        "production_scale": 6,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9117,
+        "availability": 0.635
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0096172",
+      "rank": 51,
+      "confidence": 0.8858,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8353,
+        "external": 1.0,
+        "location": 0.8,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 13,
+        "nlp_llm": 6,
+        "production_scale": 4,
+        "eval": 1,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9198,
+        "availability": 0.649
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0033861",
+      "rank": 52,
+      "confidence": 0.9902,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.946,
+        "external": 0.652,
+        "location": 0.6,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 16,
+        "nlp_llm": 10,
+        "production_scale": 9,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.8335,
+        "availability": 0.497
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0041610",
+      "rank": 53,
+      "confidence": 0.8422,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.995,
+        "external": 1.0,
+        "location": 0.75,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 11,
+        "nlp_llm": 3,
+        "production_scale": 7,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0345,
+        "availability": 0.85
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0086151",
+      "rank": 54,
+      "confidence": 0.8812,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9731,
+        "external": 1.0,
+        "location": 0.75,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 18,
+        "nlp_llm": 4,
+        "production_scale": 6,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.92,
+        "availability": 0.649
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0047721",
+      "rank": 55,
+      "confidence": 0.9212,
+      "weight_breakdown": {
+        "role": 0.9,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 1.0,
+        "external": 1.0,
+        "location": 0.75,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 9,
+        "nlp_llm": 4,
+        "production_scale": 6,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.8724,
+        "availability": 0.566
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0061265",
+      "rank": 56,
+      "confidence": 0.8459,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9912,
+        "external": 1.0,
+        "location": 0.8,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 16,
+        "nlp_llm": 3,
+        "production_scale": 6,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9701,
+        "availability": 0.737
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0030953",
+      "rank": 57,
+      "confidence": 0.9005,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9651,
+        "external": 0.42,
+        "location": 0.8,
+        "promotion": 0.7222,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 18,
+        "nlp_llm": 7,
+        "production_scale": 5,
+        "eval": 7,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9306,
+        "availability": 0.668
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0037980",
+      "rank": 58,
+      "confidence": 0.854,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8007,
+        "external": 0.616,
+        "location": 0.95,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 6,
+        "nlp_llm": 0,
+        "production_scale": 7,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0277,
+        "availability": 0.838
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0050876",
+      "rank": 59,
+      "confidence": 0.8525,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.946,
+        "external": 1.0,
+        "location": 0.8,
+        "promotion": 0.5,
+        "diversity": 0.8,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 8,
+        "nlp_llm": 3,
+        "production_scale": 6,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 3,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0202,
+        "availability": 0.825
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0051630",
+      "rank": 60,
+      "confidence": 0.9065,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.946,
+        "external": 1.0,
+        "location": 0.8,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 12,
+        "nlp_llm": 5,
+        "production_scale": 4,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.8604,
+        "availability": 0.544
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0006418",
+      "rank": 61,
+      "confidence": 0.8243,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9104,
+        "external": 1.0,
+        "location": 0.95,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 4,
+        "nlp_llm": 2,
+        "production_scale": 4,
+        "eval": 4,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0437,
+        "availability": 0.866
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0028793",
+      "rank": 62,
+      "confidence": 0.8419,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9978,
+        "external": 1.0,
+        "location": 0.75,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 13,
+        "nlp_llm": 7,
+        "production_scale": 3,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9639,
+        "availability": 0.726
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0014440",
+      "rank": 63,
+      "confidence": 0.8527,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9802,
+        "external": 1.0,
+        "location": 0.8,
+        "promotion": 0.5,
+        "diversity": 0.8,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 8,
+        "nlp_llm": 1,
+        "production_scale": 6,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 3,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0121,
+        "availability": 0.811
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0039383",
+      "rank": 64,
+      "confidence": 0.8254,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9994,
+        "external": 1.0,
+        "location": 0.95,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 12,
+        "nlp_llm": 4,
+        "production_scale": 2,
+        "eval": 4,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9814,
+        "availability": 0.757
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0070202",
+      "rank": 65,
+      "confidence": 0.9379,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8183,
+        "external": 0.0,
+        "location": 0.6,
+        "promotion": 0.5,
+        "diversity": 0.8,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 11,
+        "nlp_llm": 2,
+        "production_scale": 7,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 3,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.899,
+        "availability": 0.612
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0095528",
+      "rank": 66,
+      "confidence": 0.8458,
+      "weight_breakdown": {
+        "role": 0.9,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8517,
+        "external": 0.0,
+        "location": 0.6,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 7,
+        "nlp_llm": 3,
+        "production_scale": 6,
+        "eval": 1,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0222,
+        "availability": 0.828
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0009024",
+      "rank": 67,
+      "confidence": 0.882,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8353,
+        "external": 0.654,
+        "location": 0.8,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 6,
+        "nlp_llm": 2,
+        "production_scale": 4,
+        "eval": 1,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9708,
+        "availability": 0.738
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0020708",
+      "rank": 68,
+      "confidence": 0.8521,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.6469,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 9,
+        "nlp_llm": 5,
+        "production_scale": 2,
+        "eval": 0,
+        "cv": 0
+      },
+      "promotion_trajectory": "single_role",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0476,
+        "availability": 0.873
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0076251",
+      "rank": 69,
+      "confidence": 0.8271,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9802,
+        "external": 0.0,
+        "location": 0.75,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 12,
+        "nlp_llm": 3,
+        "production_scale": 4,
+        "eval": 0,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9856,
+        "availability": 0.764
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0053695",
+      "rank": 70,
+      "confidence": 0.842,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9231,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 15,
+        "nlp_llm": 4,
+        "production_scale": 4,
+        "eval": 6,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9851,
+        "availability": 0.763
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0052682",
+      "rank": 71,
+      "confidence": 0.823,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9912,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 8,
+        "nlp_llm": 6,
+        "production_scale": 5,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0633,
+        "availability": 0.9
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0037566",
+      "rank": 72,
+      "confidence": 0.8191,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9994,
+        "external": 1.0,
+        "location": 0.95,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 7,
+        "nlp_llm": 4,
+        "production_scale": 3,
+        "eval": 1,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0236,
+        "availability": 0.831
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0036184",
+      "rank": 73,
+      "confidence": 0.8124,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.946,
+        "external": 0.864,
+        "location": 0.6,
+        "promotion": 1.0,
+        "diversity": 0.8,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 11,
+        "nlp_llm": 3,
+        "production_scale": 2,
+        "eval": 0,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 3,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0556,
+        "availability": 0.887
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0064326",
+      "rank": 74,
+      "confidence": 0.807,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9802,
+        "external": 1.0,
+        "location": 0.8,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 10,
+        "nlp_llm": 4,
+        "production_scale": 6,
+        "eval": 7,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0678,
+        "availability": 0.908
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0024466",
+      "rank": 75,
+      "confidence": 0.8904,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8353,
+        "external": 0.0,
+        "location": 0.55,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 8,
+        "nlp_llm": 2,
+        "production_scale": 6,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9474,
+        "availability": 0.697
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0010257",
+      "rank": 76,
+      "confidence": 0.8187,
+      "weight_breakdown": {
+        "role": 0.9,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9862,
+        "external": 0.91,
+        "location": 1.0,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 7,
+        "nlp_llm": 2,
+        "production_scale": 6,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0111,
+        "availability": 0.809
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0005649",
+      "rank": 77,
+      "confidence": 0.8207,
+      "weight_breakdown": {
+        "role": 0.9,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9912,
+        "external": 1.0,
+        "location": 0.95,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 16,
+        "nlp_llm": 6,
+        "production_scale": 5,
+        "eval": 6,
+        "cv": 0
+      },
+      "promotion_trajectory": "strong_upward",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9938,
+        "availability": 0.779
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0007009",
+      "rank": 78,
+      "confidence": 0.8011,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.956,
+        "external": 1.0,
+        "location": 1.0,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 13,
+        "nlp_llm": 7,
+        "production_scale": 3,
+        "eval": 1,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0069,
+        "availability": 0.801
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0093193",
+      "rank": 79,
+      "confidence": 0.8378,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.956,
+        "external": 0.684,
+        "location": 0.8,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 2,
+        "nlp_llm": 0,
+        "production_scale": 2,
+        "eval": 1,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0252,
+        "availability": 0.834
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0096142",
+      "rank": 80,
+      "confidence": 0.8427,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8007,
+        "external": 1.0,
+        "location": 0.8,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 8,
+        "nlp_llm": 2,
+        "production_scale": 4,
+        "eval": 6,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0094,
+        "availability": 0.806
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0049896",
+      "rank": 81,
+      "confidence": 0.8497,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.995,
+        "external": 0.0,
+        "location": 0.75,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 11,
+        "nlp_llm": 4,
+        "production_scale": 5,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9797,
+        "availability": 0.754
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0094759",
+      "rank": 82,
+      "confidence": 0.9385,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8674,
+        "external": 1.0,
+        "location": 0.95,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 19,
+        "nlp_llm": 4,
+        "production_scale": 7,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.7924,
+        "availability": 0.425
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0051292",
+      "rank": 83,
+      "confidence": 0.8295,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8353,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 15,
+        "nlp_llm": 5,
+        "production_scale": 6,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0023,
+        "availability": 0.793
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0068351",
+      "rank": 84,
+      "confidence": 0.8283,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9802,
+        "external": 0.0,
+        "location": 0.8,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 5,
+        "nlp_llm": 0,
+        "production_scale": 5,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.968,
+        "availability": 0.733
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0060054",
+      "rank": 85,
+      "confidence": 0.8491,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9802,
+        "external": 0.0,
+        "location": 0.75,
+        "promotion": 0.9,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 14,
+        "nlp_llm": 5,
+        "production_scale": 4,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9341,
+        "availability": 0.674
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0017960",
+      "rank": 86,
+      "confidence": 0.8097,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9731,
+        "external": 1.0,
+        "location": 0.95,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 9,
+        "nlp_llm": 5,
+        "production_scale": 3,
+        "eval": 6,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0298,
+        "availability": 0.842
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0083307",
+      "rank": 87,
+      "confidence": 0.847,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9651,
+        "external": 1.0,
+        "location": 0.6,
+        "promotion": 0.7857,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 15,
+        "nlp_llm": 6,
+        "production_scale": 5,
+        "eval": 4,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9614,
+        "availability": 0.722
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0065195",
+      "rank": 88,
+      "confidence": 0.8117,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.8183,
+        "external": 1.0,
+        "location": 0.8,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 8,
+        "nlp_llm": 3,
+        "production_scale": 5,
+        "eval": 1,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0606,
+        "availability": 0.896
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0052328",
+      "rank": 89,
+      "confidence": 0.7956,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9862,
+        "external": 1.0,
+        "location": 1.0,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 9,
+        "nlp_llm": 3,
+        "production_scale": 6,
+        "eval": 1,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0485,
+        "availability": 0.875
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0081686",
+      "rank": 90,
+      "confidence": 0.8768,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.946,
+        "external": 0.928,
+        "location": 0.15,
+        "promotion": 0.9,
+        "diversity": 0.8,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 15,
+        "nlp_llm": 4,
+        "production_scale": 7,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 3,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9643,
+        "availability": 0.727
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0027691",
+      "rank": 91,
+      "confidence": 0.7983,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9862,
+        "external": 1.0,
+        "location": 1.0,
+        "promotion": 0.9,
+        "diversity": 0.8,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 12,
+        "nlp_llm": 5,
+        "production_scale": 6,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 3,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0139,
+        "availability": 0.814
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0042100",
+      "rank": 92,
+      "confidence": 0.8561,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.995,
+        "external": 0.866,
+        "location": 0.55,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 4,
+        "nlp_llm": 2,
+        "production_scale": 4,
+        "eval": 7,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9829,
+        "availability": 0.759
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0065878",
+      "rank": 93,
+      "confidence": 0.8645,
+      "weight_breakdown": {
+        "role": 0.9,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9651,
+        "external": 0.0,
+        "location": 0.6,
+        "promotion": 0.7857,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 8,
+        "nlp_llm": 4,
+        "production_scale": 6,
+        "eval": 3,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9619,
+        "availability": 0.723
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0075574",
+      "rank": 94,
+      "confidence": 0.8272,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9104,
+        "external": 0.754,
+        "location": 0.95,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 9,
+        "nlp_llm": 5,
+        "production_scale": 6,
+        "eval": 7,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0104,
+        "availability": 0.808
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0003977",
+      "rank": 95,
+      "confidence": 0.8893,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.7261,
+        "external": 1.0,
+        "location": 0.8,
+        "promotion": 1.0,
+        "diversity": 0.8,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 12,
+        "nlp_llm": 4,
+        "production_scale": 2,
+        "eval": 0,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 3,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.8801,
+        "availability": 0.579
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0011162",
+      "rank": 96,
+      "confidence": 0.837,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9231,
+        "external": 0.686,
+        "location": 0.75,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 9,
+        "nlp_llm": 2,
+        "production_scale": 7,
+        "eval": 6,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.015,
+        "availability": 0.816
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0068811",
+      "rank": 97,
+      "confidence": 0.8295,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.946,
+        "external": 0.462,
+        "location": 1.0,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 11,
+        "nlp_llm": 4,
+        "production_scale": 9,
+        "eval": 4,
+        "cv": 0
+      },
+      "promotion_trajectory": "flat",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0136,
+        "availability": 0.813
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0074225",
+      "rank": 98,
+      "confidence": 0.8398,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.667,
+        "external": 1.0,
+        "location": 0.75,
+        "promotion": 0.5,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 8,
+        "nlp_llm": 4,
+        "production_scale": 3,
+        "eval": 5,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 5,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0103,
+        "availability": 0.808
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0005538",
+      "rank": 99,
+      "confidence": 0.7931,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.935,
+        "external": 1.0,
+        "location": 0.8,
+        "promotion": 0.7857,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 6,
+        "nlp_llm": 1,
+        "production_scale": 6,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "upward",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 1.0358,
+        "availability": 0.852
+      },
+      "is_honeypot": false
+    },
+    {
+      "candidate_id": "CAND_0070485",
+      "rank": 100,
+      "confidence": 0.8544,
+      "weight_breakdown": {
+        "role": 1.0,
+        "domain": 1.0,
+        "product": 1.0,
+        "experience": 0.9802,
+        "external": 0.526,
+        "location": 0.6,
+        "promotion": 1.0,
+        "diversity": 1.0,
+        "company_quality": 0.7
+      },
+      "role_category": "core_ai",
+      "domain_counts": {
+        "retrieval_ranking": 12,
+        "nlp_llm": 5,
+        "production_scale": 4,
+        "eval": 2,
+        "cv": 0
+      },
+      "promotion_trajectory": "stable",
+      "diversity_coverage": 4,
+      "company_category": "product",
+      "behavioral": {
+        "modifier": 0.9375,
+        "availability": 0.68
+      },
+      "is_honeypot": false
+    }
+  ]
+}
